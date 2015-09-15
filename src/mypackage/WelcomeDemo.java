@@ -38,7 +38,7 @@ public class WelcomeDemo extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String programme = jtfProgramme.getText();
-                String message = "Programme: " + programme;
+                String message = "Programme Name: " + programme;
                 JOptionPane.showMessageDialog(null, message);
             }
         });

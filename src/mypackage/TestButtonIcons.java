@@ -8,7 +8,7 @@ public class TestButtonIcons extends JFrame {
         ImageIcon usIcon = new ImageIcon(getClass().getResource("/images/usIcon.gif"));
         ImageIcon caIcon = new ImageIcon(getClass().getResource("/images/canadaIcon.gif"));
         ImageIcon ukIcon = new ImageIcon(getClass().getResource("/images/ukIcon.gif"));
-        JButton jbt = new JButton("Click me", usIcon);
+        JButton jbt = new JButton("Click me to see what happens", usIcon);
         jbt.setPressedIcon(caIcon);
         jbt.setRolloverIcon(ukIcon);
         add(jbt);
