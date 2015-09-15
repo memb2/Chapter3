@@ -8,7 +8,7 @@ public class WelcomeDemo extends JFrame {
 
     private JLabel jlblName = new JLabel("Name");
     private JTextField jtfName = new JTextField(30);
-    private JLabel jlblProgramme = new JLabel("Programme");
+    private JLabel jlblProgramme = new JLabel("Programme code");
     private JTextField jtfProgramme = new JTextField(5);
     private JButton jbtSubmit = new JButton("Submit");
     private JLabel jlblMessage = new JLabel();
@@ -38,7 +38,7 @@ public class WelcomeDemo extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String programme = jtfProgramme.getText();
-                String message = "Programme: " + programme;
+                String message = "Programme Code: " + programme;
                 JOptionPane.showMessageDialog(null, message);
             }
         });
